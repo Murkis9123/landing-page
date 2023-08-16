@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: stretch;
     margin: 0;
     
 }
@@ -86,7 +87,7 @@ a{
 
 #one {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 800;
     color: #f9faf8;
 }
 
@@ -100,8 +101,56 @@ a{
     padding: 8px 30px;
     background-color: #3882f6;
     border: 0;
-    border-radius: 8px;
+    border-radius: 12px;
     color: #e5e7eb;
     font-weight: bold;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    
+    
+    height: 500px;
+    padding-bottom: 200px;
+
+}
+
+.headline {
+    display: flex;
+    justify-content: center;
+    
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.content {
+    display: flex;
+    justify-content:center ;
+    gap: 35px;
+}
+
+.info-box {
+    
+    justify-content: center;    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+
+}
+.one, .two, .three, .four {
+    width: 200px;
+    height: 200px;
+    border: solid #1f2937;
+    border-radius: 12px;  
+}
+
+.text {
+    max-width: 200px;
+    padding: 5px 10px; ;
+    
+}
