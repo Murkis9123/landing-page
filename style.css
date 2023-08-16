@@ -6,6 +6,11 @@ body {
     
 }
 
+.bar, .header, .info, .insp-quote, .footer, .sign-up {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
 .bar, ul {
     display: flex;
 }
@@ -14,11 +19,10 @@ body {
     justify-content: space-between;
     color: white;
     background-color: #1f2937;
-    padding-left: 120px;
-    padding-right: 120px;
     margin-top: 0;
     padding-top: 10px;
     padding-bottom: 35px;
+    flex: 0 0 auto;
 }
 
 ul {
@@ -39,4 +43,15 @@ a{
     font-weight: bold;
     color: #f9faf8;
 
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.main-title {
+    max-width: 250px;
 }
