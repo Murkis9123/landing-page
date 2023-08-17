@@ -7,7 +7,7 @@ body {
     
 }
 
-.bar, .header, .info, .insp-quote, .footer, .sign-up {
+.bar, .header, .info, .insp-quote, .footer, .sign-up-box {
     padding-left: 190px;
     padding-right: 190px;
 }
@@ -160,6 +160,8 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 150px;
+
     
 
 }
@@ -180,4 +182,43 @@ a{
     padding-left: 700px;
     background-color: #e5e7eb;
     font-weight: 600;
+}
+
+.sign-up-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 150px;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    gap: 187px;
+    max-width: 850px;
+    padding: 35px 126.5px;
+    border-radius: 12px;
+    color: #e5e7eb;
+
+}
+
+.text-one {
+    font-weight: 800;
+    font-size: larger;
+}
+
+.text-two {
+    font-size: 16px;
+}
+
+.button-two {
+    background-color: #3882f6;
+    border: solid #e5e7eb 2px;
+    padding: 12px 35px;
+    border-radius: 12px;
+    color: #e5e7eb;
+    font-weight: 800;
+    font-size: 14px;
 }
