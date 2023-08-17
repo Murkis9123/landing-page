@@ -4,6 +4,9 @@ body {
     justify-content: space-between;
     align-items: stretch;
     margin: 0;
+    position: relative;
+    min-height: 100vh;
+    flex-wrap: wrap;
     
 }
 
@@ -221,4 +224,16 @@ a{
     color: #e5e7eb;
     font-weight: 800;
     font-size: 14px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    height: 85px;
+    font-size: 18px;
+    font-weight: bold;
+    
 }
