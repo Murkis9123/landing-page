@@ -8,8 +8,8 @@ body {
 }
 
 .bar, .header, .info, .insp-quote, .footer, .sign-up {
-    padding-left: 180px;
-    padding-right: 180px;
+    padding-left: 190px;
+    padding-right: 190px;
 }
 
 .bar, ul {
@@ -48,11 +48,12 @@ a{
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex: 1 0 auto;
     padding-top: 100px;
     padding-bottom: 200px;
     background-color: #1f2937;
+    gap: 35px;
     
     
 }
@@ -112,7 +113,7 @@ a{
     
     
     height: 500px;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 
 }
 
@@ -145,12 +146,38 @@ a{
 .one, .two, .three, .four {
     width: 200px;
     height: 200px;
-    border: solid #1f2937;
+    border: solid #3882f6;
     border-radius: 12px;  
 }
 
 .text {
     max-width: 200px;
-    padding: 5px 10px; ;
+    padding: 5px 10px;    
+}
+
+.insp-quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
+
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 700px;
+    background-color: #e5e7eb;
+    font-weight: 600;
 }
