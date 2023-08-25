@@ -80,13 +80,18 @@ a{
 
 .image {
     width: 450px;
-    max-width: 450px;
-    height: 225px;
+    max-width: 550px;
+    max-height: 245px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #e5e7eb;
-    background-color: grey;
+    
+    
+}
+
+img {
+    max-width: 650px;
+    max-height: 260px; 
 }
 
 #one {
@@ -183,7 +188,7 @@ a{
     display: flex;
     justify-content: flex-end;
     padding-left: 700px;
-    background-color: #e5e7eb;
+    
     font-weight: 600;
 }
 
